@@ -78,6 +78,7 @@ btnNew.addEventListener('click', function () {
     btnRoll.classList.remove('hidden');
     document.querySelector(`.player--${activePlayer}`).classList.remove('player--winner');
     activePlayer = 0;
+    currentScore = 0;
     player0El.classList.add('player--active');
     player1El.classList.remove('player--active');
 
